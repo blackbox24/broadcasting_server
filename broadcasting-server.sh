@@ -7,7 +7,7 @@ command=$1
 if [[ $command == "start" ]]; then
     echo $(python ./server.py);
 elif [[ $command == "connect" ]]; then 
-    echo $(python ./main.py);
+    echo $(python ./client.py);
 else 
     echo "$command not found";
 fi
